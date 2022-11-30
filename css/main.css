@@ -1,0 +1,71 @@
+html {
+	margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F6F6F6;
+    max-width: 100%;
+    height: auto;
+}
+.input {
+    top: 50%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.title{
+    text-align: center;
+    font-family: 'Gothic A1', sans-serif;
+    color: #373745;
+    font-size: 14px;
+}
+.forma{
+    text-align: center;
+}
+.dog{
+    padding-top: 40px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.inputLogin{
+    width:90%; 
+    height: 48px;
+    border: 1px solid #DCDCDF;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.password{
+    width:90%;
+    border: 1px solid #DCDCDF;
+    border-radius: 12px;
+    height: 48px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+button {
+    background-color: #60C2AA;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 1;
+    margin-top: 20px;
+    width: 352px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+button:hover {
+    opacity: 0.8;
+}
